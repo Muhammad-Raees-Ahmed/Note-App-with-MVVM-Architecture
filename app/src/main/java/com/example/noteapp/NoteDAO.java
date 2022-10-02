@@ -22,5 +22,5 @@ public interface NoteDAO {
     void update(Note note);
 
     @Query("SELECT * FROM note")
-    LiveData<List<Note>> getAll(Note note);
+    LiveData<List<Note>> getAll();
 }

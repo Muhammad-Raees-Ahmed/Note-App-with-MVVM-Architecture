@@ -25,6 +25,10 @@ public class Note {
     @ColumnInfo(name="finished")
     private boolean finished;
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public int getId() {
         return id;
     }
