@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.example.noteapp.Activity.MainActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
