@@ -3,6 +3,7 @@ package com.example.noteapp.Activity;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -65,6 +66,8 @@ public class AddNoteActivity extends AppCompatActivity {
         note.setFinished(false);
         noteViewModel.insert(note);
         Toast.makeText(this, "inserted", Toast.LENGTH_SHORT).show();
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
 
     }
 }

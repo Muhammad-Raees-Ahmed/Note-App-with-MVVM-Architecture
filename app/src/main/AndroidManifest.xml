@@ -14,6 +14,13 @@
         android:theme="@style/Theme.NoteApp"
         tools:targetApi="31">
         <activity
+            android:name=".Activity.UpdateTaskActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Activity.AddNoteActivity"
             android:exported="false" />
         <activity
@@ -27,7 +34,7 @@
         </activity>
         <activity
             android:name=".Activity.MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>
