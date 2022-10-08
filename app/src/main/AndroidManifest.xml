@@ -14,7 +14,7 @@
         android:theme="@style/Theme.NoteApp"
         tools:targetApi="31">
         <activity
-            android:name=".AddNoteActivity"
+            android:name=".Activity.AddNoteActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"

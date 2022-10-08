@@ -29,6 +29,22 @@ public class Note {
         this.id = id;
     }
 
+    public void setTask(String task) {
+        this.task = task;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+    public void setFinishBy(String finishBy) {
+        this.finishBy = finishBy;
+    }
+
+    public void setFinished(boolean finished) {
+        this.finished = finished;
+    }
+
     public int getId() {
         return id;
     }

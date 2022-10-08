@@ -32,7 +32,7 @@ public class NoteViewModel extends AndroidViewModel {
         noteRepository.updateData(note);
     }
 
-    public LiveData<List<Note>> getData(Note note) {
+    public LiveData<List<Note>> getData() {
 
         return notelist;
     }
