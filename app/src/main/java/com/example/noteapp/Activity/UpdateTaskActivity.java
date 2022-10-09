@@ -49,7 +49,7 @@ public class UpdateTaskActivity extends AppCompatActivity {
 
     private void loadTask(Note task) {
 
-
+        System.out.println(task);
 //        binding.editTextTask.setText(task.getTask());
 //        binding.editTextDesc.setText(task.getDesc());
 //        binding.editTextFinishBy.setText(task.getFinishBy());
