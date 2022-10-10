@@ -30,6 +30,7 @@ public class UpdateTaskActivity extends AppCompatActivity {
         noteViewModel = new ViewModelProvider(this, (ViewModelProvider.Factory) ViewModelProvider.AndroidViewModelFactory.getInstance(this.getApplication()))
                 .get(NoteViewModel.class);
 
+        // data not come
         Note task = (Note) getIntent().getSerializableExtra("note");
 
         loadTask(task);
