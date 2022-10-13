@@ -17,6 +17,7 @@ public class NoteRepository {
         noteDAO = noteDatabase.noteDAO();
         listLiveData = noteDAO.getAll();
 
+
     }
 
     public void insertData(Note note) {
