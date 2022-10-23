@@ -59,6 +59,7 @@ public class AddNoteActivity extends AppCompatActivity {
             activityAddNoteBinding.editTextFinishBy.setError("Finish by  Required");
             activityAddNoteBinding.editTextFinishBy.requestFocus();
         }
+
         Note note = new Note();
         note.setTask(task);
         note.setDesc(desc);
