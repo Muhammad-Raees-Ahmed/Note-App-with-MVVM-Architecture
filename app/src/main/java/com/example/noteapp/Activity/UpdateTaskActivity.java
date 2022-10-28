@@ -3,6 +3,7 @@ package com.example.noteapp.Activity;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -31,6 +32,8 @@ public class UpdateTaskActivity extends AppCompatActivity {
                 .get(NoteViewModel.class);
 
         // data not come
+
+
         Note task = (Note) getIntent().getSerializableExtra("note");
 
         loadTask(task);
@@ -51,10 +54,10 @@ public class UpdateTaskActivity extends AppCompatActivity {
     private void loadTask(Note task) {
 
         System.out.println(task);
-//        binding.editTextTask.setText(task.getTask());
-//        binding.editTextDesc.setText(task.getDesc());
-//        binding.editTextFinishBy.setText(task.getFinishBy());
-//        binding.checkBoxFinished.setChecked(task.isFinished());
+        binding.editTextTask.setText(task.getTask());
+        binding.editTextDesc.setText(task.getDesc());
+        binding.editTextFinishBy.setText(task.getFinishBy());
+        binding.checkBoxFinished.setChecked(task.isFinished());
 
 
     }
