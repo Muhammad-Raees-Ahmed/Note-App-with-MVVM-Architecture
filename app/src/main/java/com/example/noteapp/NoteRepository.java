@@ -6,6 +6,7 @@ import androidx.lifecycle.LiveData;
 import java.util.List;
 
 public class NoteRepository {
+
     private NoteDAO noteDAO;
     private LiveData<List<Note>> listLiveData;
 
@@ -14,7 +15,6 @@ public class NoteRepository {
         NoteDatabase noteDatabase = NoteDatabase.getInstance(context);
         noteDAO = noteDatabase.noteDAO();
         listLiveData = noteDAO.getAll();
-
 
     }
 
