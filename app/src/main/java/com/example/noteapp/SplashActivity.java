@@ -1,12 +1,10 @@
 package com.example.noteapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
-
 import com.airbnb.lottie.LottieAnimationView;
 import com.example.noteapp.Activity.MainActivity;
 
@@ -28,6 +26,7 @@ public class SplashActivity extends AppCompatActivity {
         // hide action bar
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
+
         }
 
         lottieAnimationView.animate().translationX(1900).setDuration(1500).setStartDelay(2400);

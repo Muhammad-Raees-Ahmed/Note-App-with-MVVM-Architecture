@@ -2,9 +2,7 @@ package com.example.noteapp;
 
 import android.content.Context;
 import android.os.AsyncTask;
-
 import androidx.lifecycle.LiveData;
-
 import java.util.List;
 
 public class NoteRepository {
