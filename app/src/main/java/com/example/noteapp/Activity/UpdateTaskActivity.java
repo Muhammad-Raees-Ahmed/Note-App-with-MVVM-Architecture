@@ -33,7 +33,7 @@ public class UpdateTaskActivity extends AppCompatActivity {
 
         // data not come
 
-
+// not working properly
         Note task = (Note) getIntent().getSerializableExtra("note");
 
         loadTask(task);
