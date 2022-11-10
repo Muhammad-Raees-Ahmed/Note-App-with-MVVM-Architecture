@@ -8,7 +8,6 @@ import java.util.List;
 public class NoteRepository {
 
     private NoteDAO noteDAO;
-
     private LiveData<List<Note>> listLiveData;
 
     public NoteRepository(Context context) {
@@ -34,6 +33,7 @@ public class NoteRepository {
     public LiveData<List<Note>> getAllData() {
 
         return listLiveData;
+
     }
 
     private static class InsertNote extends AsyncTask<Note, Void, Void> {
