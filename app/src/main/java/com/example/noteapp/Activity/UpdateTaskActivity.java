@@ -17,6 +17,7 @@ import com.example.noteapp.databinding.ActivityUpdateTaskBinding;
 public class UpdateTaskActivity extends AppCompatActivity {
 
     ActivityUpdateTaskBinding binding;
+
     private NoteViewModel noteViewModel;
 
 

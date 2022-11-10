@@ -8,6 +8,7 @@ import java.util.List;
 public class NoteRepository {
 
     private NoteDAO noteDAO;
+
     private LiveData<List<Note>> listLiveData;
 
     public NoteRepository(Context context) {

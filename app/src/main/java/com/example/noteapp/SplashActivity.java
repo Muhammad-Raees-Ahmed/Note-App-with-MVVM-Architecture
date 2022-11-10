@@ -11,6 +11,7 @@ import com.example.noteapp.Activity.MainActivity;
 public class SplashActivity extends AppCompatActivity {
 
     Handler handler;
+
     LottieAnimationView lottieAnimationView;
     TextView textView;
 

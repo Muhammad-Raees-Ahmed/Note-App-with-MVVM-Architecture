@@ -8,6 +8,7 @@ import androidx.room.RoomDatabase;
 
 // adding annotation for our database entities and db version.
 @Database(entities = {Note.class}, version = 1)
+
 public abstract class NoteDatabase extends RoomDatabase {
 
     private static NoteDatabase instance;
