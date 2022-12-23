@@ -69,5 +69,5 @@ dependencies {
     // Annotation processor
     implementation "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
-
+// above all are dependencies
 }

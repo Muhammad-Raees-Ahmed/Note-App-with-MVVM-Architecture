@@ -12,5 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+// imp
 rootProject.name = "Note App"
 include ':app'
