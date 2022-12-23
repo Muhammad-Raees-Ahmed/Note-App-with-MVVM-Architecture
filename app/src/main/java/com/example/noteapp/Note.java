@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey;
 import java.io.Serializable;
 
 @Entity(tableName = "note")
-
+// db table
 public class Note implements Serializable {
 
     // these variables are columns in Room db

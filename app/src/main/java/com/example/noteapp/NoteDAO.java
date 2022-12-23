@@ -9,6 +9,7 @@ import androidx.room.Update;
 
 import java.util.List;
 
+// DAO interface
 @Dao
 public interface NoteDAO {
 

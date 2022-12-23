@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 import androidx.lifecycle.LiveData;
 import java.util.List;
 
+// repo class
 public class NoteRepository {
 
     private NoteDAO noteDAO;
