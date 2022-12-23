@@ -15,6 +15,7 @@ import com.example.noteapp.R;
 import com.example.noteapp.databinding.ActivityAddNoteBinding;
 import com.example.noteapp.databinding.ActivityMainBinding;
 
+// add data
 public class AddNoteActivity extends AppCompatActivity {
 
     ActivityAddNoteBinding activityAddNoteBinding;

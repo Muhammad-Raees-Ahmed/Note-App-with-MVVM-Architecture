@@ -14,6 +14,7 @@ import com.example.noteapp.R;
 import com.example.noteapp.databinding.ActivityAddNoteBinding;
 import com.example.noteapp.databinding.ActivityUpdateTaskBinding;
 
+// this activity raise error
 public class UpdateTaskActivity extends AppCompatActivity {
 
     ActivityUpdateTaskBinding binding;

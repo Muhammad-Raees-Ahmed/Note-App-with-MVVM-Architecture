@@ -6,6 +6,7 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import java.util.List;
 
+// viewmodel hold data
 public class NoteViewModel extends AndroidViewModel {
 
     private NoteRepository noteRepository;

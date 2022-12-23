@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.noteapp.Note;
 import com.example.noteapp.R;
 
+// adapter
 public class Adapter extends ListAdapter<Note,Adapter.ViewHolder > {
 
     public Adapter(){

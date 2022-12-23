@@ -23,6 +23,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
 
+// mainactivity
 public class MainActivity extends AppCompatActivity {
 
     ActivityMainBinding activityMainBinding;
